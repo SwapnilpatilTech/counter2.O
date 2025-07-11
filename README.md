@@ -20,9 +20,9 @@ It’s built with **React** and styled using **TailwindCSS** or simple custom CS
 
 ## 📽️ Video Explanation
 
-[![Watch the Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![Watch the Demo]
 
-📌 _Click the thumbnail above to watch a full explanation of the app._
+📌 https://drive.google.com/file/d/1etfPSLEXUMhYk2xNVGRuPdWNnas-YrNv/view?usp=drive_link
 
 ---
 
