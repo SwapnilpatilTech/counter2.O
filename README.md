@@ -3,7 +3,7 @@
 A simple and interactive React application that demonstrates core concepts like state management, event handling, conditional rendering, and logic operations such as checking if a number is **even/odd** and **prime/not prime**.
 
 <h1>Image</h1>
-<img src="https://github.com/SwapnilpatilTech/React/blob/cfaa50cee26a7dda3693db18c53ecfd5922ddf63/src/assets/Screenshot%202025-06-26%20192718.png"width=100%>---
+<img src="https://github.com/SwapnilpatilTech/counter2.O/blob/ba15c827fd2f640142bb2fe2c55da07f2f70aeb0/assets/Screenshot%202025-07-11%20142926.png"width=100%>---
 
 ## 🎯 Project Objective
 
