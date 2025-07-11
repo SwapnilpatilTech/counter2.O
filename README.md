@@ -1,12 +1,54 @@
-# React + Vite
+# 🔢 React Counter App 2.0
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive React application that demonstrates core concepts like state management, event handling, conditional rendering, and logic operations such as checking if a number is **even/odd** and **prime/not prime**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Project Objective
 
-## Expanding the ESLint configuration
+The goal of this app is to allow users to:
+- Increment or decrement a counter
+- Reset the counter to zero
+- Dynamically display:
+  - Whether the number is **Even** or **Odd**
+  - Whether the number is a **Prime** or **Not Prime**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+It’s built with **React** and styled using **TailwindCSS** or simple custom CSS.
+
+---
+
+## 📽️ Video Explanation
+
+[![Watch the Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
+📌 _Click the thumbnail above to watch a full explanation of the app._
+
+---
+
+
+---
+
+## 🚀 Features
+
+✅ Counter starts from 0  
+✅ `+` button increments the count  
+✅ `–` button decrements the count (disabled at 0)  
+✅ `Reset` button resets the count to 0  
+✅ Displays **Even/Odd** status  
+✅ Displays **Prime/Not Prime** status  
+✅ Clean and responsive UI  
+✅ Test-friendly design with `data-testid` attributes
+
+---
+
+## 📁 Folder Structure
+
+counter-app/
+├── src/
+│ ├── App.jsx # Main logic
+│ ├── App.css # Styling (Tailwind or CSS)
+│ └── main.jsx # ReactDOM entry point
+├── public/ # Static files
+├── tailwind.config.js # Tailwind (if used)
+├── vite.config.js # Vite bundler
+└── package.json
