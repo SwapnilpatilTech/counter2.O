@@ -1,0 +1,124 @@
+/* App.css - Modern Neomorphic Style */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #232423;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #f0f4f8;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 15px #c0c3c9,
+              -8px -8px 15px #ffffff;
+  width: 100%;
+  max-width: 420px;
+}
+
+.header {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #d1d5db;
+  padding-bottom: 10px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.button {
+  background: linear-gradient(to right, #60a5fa, #3b82f6);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: linear-gradient(to right, #3b82f6, #2563eb);
+}
+
+.button:disabled {
+  background: #cbd5e1;
+  cursor: not-allowed;
+}
+
+.counter {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: #1e40af;
+}
+
+.reset-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.reset-button {
+  background: linear-gradient(to right, #f87171, #ef4444);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.reset-button:hover {
+  background: linear-gradient(to right, #dc2626, #b91c1c);
+}
+
+.result-text {
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #334155;
+}
+
+.result-value {
+  margin-left: 8px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.even {
+  color: #059669;
+}
+
+.odd {
+  color: #b91c1c;
+}
+
+.prime {
+  color: #d97706;
+}
+
+.not-prime {
+  color: #6b7280;
+}
